@@ -1,0 +1,62 @@
+/* Маленькие мониторы */
+@media(max-width:1200px) {
+    .container {
+        max-width: 970px;
+        background: sienna;
+    }
+}
+
+/* Планшеты */
+@media(max-width:992px) {
+    .container {
+        max-width: 750px;
+        background: greenyellow;
+    }
+
+    .col-4 {
+        flex: 0 1 100%;
+    }
+}
+
+/* Мобильные устройства */
+@media(max-width:767px) {
+    .container {
+        max-width: none;
+        background: darkorchid;
+    }
+}
+
+/********************************************************************
+********************************************************************
+********************************************************************/
+
+@media(max-width:1200px) {
+    .second .container {
+        max-width: 970px;
+        background: red;
+    }
+
+    .col-6 .box {
+        background: url(https://wallpapers.com/images/hd/port-of-san-francisco-city-py5mjo92e7akx6zq.jpg) center / cover no-repeat;
+    }
+}
+
+/* Планшеты */
+@media(max-width:992px) {
+    .second .container {
+        max-width: 750px;
+        background: blue;
+    }
+}
+
+/* Мобильные устройства */
+@media(max-width:767px) {
+    .second .container {
+        max-width: none;
+        background: forestgreen;
+    }
+
+    .col-6 {
+        flex: 0 1 100%;
+    }
+}
